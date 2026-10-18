@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darrshangovender.github.io/sitemap.xml

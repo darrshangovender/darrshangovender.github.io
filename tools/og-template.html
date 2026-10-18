@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG image template</title>
+<!-- Rendered to assets/img/og.png (1200x630) by tools/render_images.py. House style: #0d1015, amber #d9a441, Georgia + system sans. -->
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; background: #0d1015; overflow: hidden; }
+  body { position: relative; font-family: 'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif; color: #eceff3; }
+  .bar { position: absolute; top: 0; left: 0; right: 0; height: 6px; background: #d9a441; }
+  .grid { position: absolute; inset: 0; background: repeating-linear-gradient(to bottom, transparent 0 63px, rgba(255,255,255,.055) 63px 64px);
+          -webkit-mask-image: linear-gradient(to bottom, #000, transparent 85%); mask-image: linear-gradient(to bottom, #000, transparent 85%); }
+  .glow { position: absolute; inset: 0; background: radial-gradient(760px 360px at 8% -8%, rgba(217,164,65,.16), transparent 70%); }
+  .kicker { position: absolute; left: 80px; top: 64px; font-size: 20px; font-weight: 600; letter-spacing: 5px; color: #d9a441; text-transform: uppercase; }
+  .where { position: absolute; right: 80px; top: 66px; font-size: 20px; color: #8c96a3; letter-spacing: 1px; }
+  .name { position: absolute; left: 80px; top: 118px; font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; font-size: 34px; color: #c3cad3; letter-spacing: .3px; }
+  h1 { position: absolute; left: 80px; top: 180px; width: 1040px; font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; font-weight: 400; font-size: 76px; line-height: 1.06; letter-spacing: -1.4px; }
+  h1 em { color: #d9a441; }
+  svg.trace { position: absolute; left: 0; right: 0; top: 410px; width: 1200px; height: 90px; opacity: .9;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 28%); mask-image: linear-gradient(to right, transparent 0, #000 28%); }
+  .rule { position: absolute; left: 80px; right: 80px; top: 520px; height: 1px; background: rgba(255,255,255,.16); }
+  .f { position: absolute; top: 520px; }
+  .f:before { content: ''; display: block; width: 44px; height: 3px; background: #d9a441; margin-top: -2px; }
+  .f b { display: block; margin-top: 16px; font-size: 26px; font-weight: 600; color: #eceff3; }
+  .f span { display: block; margin-top: 4px; font-size: 17px; color: #8c96a3; }
+</style>
+</head>
+<body>
+  <div class="grid"></div><div class="glow"></div><div class="bar"></div>
+  <div class="kicker">AI engineer</div><div class="where">Durban, South Africa &middot; UTC+2</div>
+  <div class="name">Darrshan Govender</div>
+  <h1>Industrial AI, built to be<br>evaluated, audited <em>and trusted.</em></h1>
+  <svg class="trace" viewBox="0 0 1200 170" preserveAspectRatio="none"><path fill="none" stroke="#d9a441" stroke-width="1.4" stroke-linejoin="round" d="__TRACE_D__"/></svg>
+  <div class="rule"></div>
+  <div class="f" style="left:80px"><b>Predictive maintenance</b><span>Anomalies and remaining useful life</span></div>
+  <div class="f" style="left:450px"><b>Knowledge assistants</b><span>Cited, bilingual, access-controlled</span></div>
+  <div class="f" style="left:820px"><b>Supervised agents</b><span>Rule-based verifier, human approval</span></div>
+</body>
+</html>

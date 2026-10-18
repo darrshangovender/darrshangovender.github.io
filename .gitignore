@@ -1,0 +1,6 @@
+_preview/
+__pycache__/
+*.pyc
+tools/.og-render.html
+lighthouse*.json
+.DS_Store
