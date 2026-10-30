@@ -75,7 +75,7 @@
       <span class="hero-name">Darrshan Govender</span>
       <span class="hero-line"><span class="ln">Industrial AI, built to be</span> <span class="ln">evaluated, audited <em>and trusted.</em></span></span>
     </h1>
-    <p class="hero-sub">I build AI systems that engineering and operations teams can defend. My current focus is heavy industry: predictive maintenance, knowledge assistants that answer only from controlled documents, and agents that draft work but never act without human approval.</p>
+    <p class="hero-sub">I build AI systems that engineering and operations teams can defend. My current focus is heavy industry: predictive maintenance, knowledge assistants that answer only from controlled documents, and agents that draft work and stop for human approval before anything is acted on.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="mailto:darrshangovender@gmail.com?subject=Industrial%20AI%20enquiry">Discuss a project
         <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -145,7 +145,7 @@
         <h3>Predictive maintenance, scored one failure at a time</h3>
         <p>Regime-aware anomaly detection, remaining useful life with an uncertainty interval, cost-aware alerting and structured work-order recommendations for mining and processing assets, run on a seeded synthetic fleet.</p>
         <dl>
-          <div><dt>Key result</dt><dd class="result">On 80 held-out synthetic failures: 79 warned 3+ days ahead vs 70 for fixed thresholds, at about two-thirds the cost. Still ahead when failure signatures are scaled to 30%; behind at 15%, and the README shows that curve.</dd></div>
+          <div><dt>Key result</dt><dd class="result">On 80 held-out synthetic failures: 79 warned 3+ days ahead vs 70 for the better of two tuned fixed-limit baselines, at about two-thirds of that baseline's illustrative cost. Still ahead when failure signatures are scaled to 30%; behind at 15%, and the README shows that curve.</dd></div>
           <div><dt>Cannot show</dt><dd>Anything about a real plant. The fleet is simulated, so the results describe the method, not a site.</dd></div>
         </dl>
         <p class="more"><a href="https://github.com/darrshangovender/asset-health">Source and results on GitHub &rarr;</a></p>
@@ -296,14 +296,14 @@
         <h3><a href="https://github.com/darrshangovender/guardrail">guardrail</a><span class="chip chip-plain">external benchmark</span></h3>
         <p>Safety gateway for model inputs and outputs: prompt-injection detection, PII redaction, groundedness checks and structured-output repair behind one policy layer. Saudi National ID/Iqama, IBAN and mobile detection with checksums.</p>
         <div class="res res-cols">
-          <div><span>On public datasets it did not train on</span><b class="big">59.6%</b>of labelled attacks caught (95% CI 52.5 to 66.3), with 0 false alarms on 178 benign prompts (upper bound 2.1%).</div>
+          <div><span>On the held-out test splits of two public datasets (whose training splits informed its patterns)</span><b class="big">59.6%</b>of 193 labelled attacks flagged (95% CI 52.5 to 66.3), with 0 false alarms on 178 benign prompts (upper bound 2.1%).</div>
           <div><span>Limitation, as written in the README</span>The detector is 46 regular expressions. Paraphrase, translation and encoded attacks pass, so it is one layer of defence, never the only control.</div>
         </div>
       </article>
       <article class="tile reveal" data-d="1">
         <h3><a href="https://github.com/darrshangovender/cascade">cascade</a></h3>
         <p>Verifier-gated model cascade: answer with the cheapest model first, escalate only when verification fails, fit the thresholds offline. Benchmarked on a simulated model.</p>
-        <div class="res"><span>Result</span>Counts every verifier call at current prices. A 2-tier cascade is 5% cheaper at 99% of the strong model's accuracy; the 3-tier one costs more, and the README shows why.</div>
+        <div class="res"><span>Result</span>Counts every verifier call, priced from the list prices in the repo. A 2-tier cascade is 5% cheaper at 99% of the strong model's accuracy; the 3-tier one costs more, and the README shows why.</div>
       </article>
       <article class="tile reveal">
         <h3><a href="https://github.com/darrshangovender/context-compress">context-compress</a></h3>
@@ -337,7 +337,7 @@
       </article>
     </div>
 
-    <p class="more-row reveal">More on <a href="https://github.com/darrshangovender">GitHub</a>: domain work such as lease abstraction and affordability scoring for LeasEase, the rental-trust startup I founded, a WhatsApp agent kit with POPIA-aware redaction, and smaller RAG, routing and evaluation libraries.</p>
+    <p class="more-row reveal">More on <a href="https://github.com/darrshangovender">GitHub</a>: domain work such as South African lease abstraction and tenant affordability scoring, a WhatsApp agent kit with POPIA-aware redaction, and smaller RAG, routing and evaluation libraries.</p>
   </div>
 </section>
 
