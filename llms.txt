@@ -1,0 +1,28 @@
+# Darrshan Govender
+
+> Industrial AI engineer and founder of Agulhas Code in Durban, South Africa: predictive maintenance, cited procedure assistants and human-supervised agents for heavy industry, each published with how it was tested and where it falls short.
+
+Title: Industrial AI engineer; Founder, Agulhas Code
+Location: Durban, South Africa (UTC+2)
+Availability: contract and fractional work
+Licence of the code described here: MIT
+Data note: the industrial systems below use synthetic data or simulated models, and each repository says so.
+
+## Pages
+- [Home](https://darrshangovender.github.io/): what he builds, with results, architecture diagrams and interactive replays driven by the repositories' own output.
+- [About](https://darrshangovender.github.io/about/): who he is, where he works from and how Agulhas Code relates to the repositories published under his name.
+
+## Flagship projects (public GitHub repositories, Python, MIT)
+- [asset-health](https://github.com/darrshangovender/asset-health): Offline predictive maintenance for mining assets, scored one failure at a time: anomaly detection, remaining useful life as an interval, cost-aware alerts and structured work orders, on a seeded synthetic fleet.
+- [plant-copilot](https://github.com/darrshangovender/plant-copilot): Bilingual Arabic and English assistant for plant procedures: answers only from controlled documents, cites the clause and revision, applies access control before retrieval and refuses when the documents are silent. Synthetic corpus.
+- [maintenance-agent](https://github.com/darrshangovender/maintenance-agent): Supervised maintenance-planning agent: drafts a work order from an alert, checks it with a 16-rule verifier that uses no model, and stops at a human approval gate. All data is synthetic.
+- [guardrail](https://github.com/darrshangovender/guardrail): Safety gateway for model inputs and outputs: prompt-injection detection, PII redaction, groundedness checks and structured-output repair behind one policy layer.
+- [mcp-gateway](https://github.com/darrshangovender/mcp-gateway): Hardened MCP server framework: API-key auth, tenant isolation, per-tool guardrails, rate limits and an audit log, serving the 2026-07-28 MCP revision and the 2025 revisions side by side.
+
+## Profiles
+- [GitHub](https://github.com/darrshangovender)
+- [LinkedIn](https://www.linkedin.com/in/darrshangovender/)
+- [Agulhas Code](https://agulhascode.co.za): the AI engineering studio he runs in Durban.
+
+## Contact
+- [Contact section](https://darrshangovender.github.io/#contact)

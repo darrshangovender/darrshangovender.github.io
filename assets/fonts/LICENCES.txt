@@ -1,0 +1,24 @@
+Fonts in this folder are Latin subsets (woff2) of the following typefaces.
+Each is licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org).
+The subsetting changes the glyph set only; no outlines were edited.
+
+instrument-serif-400.woff2
+  Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+instrument-serif-400-italic.woff2
+  Copyright 2022 The Instrument Serif Project Authors (https://github.com/Instrument/instrument-serif)
+
+instrument-sans-400.woff2
+  Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+instrument-sans-700.woff2
+  Copyright 2022 The Instrument Sans Project Authors (https://github.com/Instrument/instrument-sans)
+
+plex-mono-400.woff2
+  Copyright 2017 IBM Corp. All rights reserved.
+  This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+plex-mono-700.woff2
+  Copyright 2017 IBM Corp. All rights reserved.
