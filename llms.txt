@@ -19,6 +19,10 @@ Data note: the industrial systems below use synthetic data or simulated models, 
 - [guardrail](https://github.com/darrshangovender/guardrail): Safety gateway for model inputs and outputs: prompt-injection detection, PII redaction, groundedness checks and structured-output repair behind one policy layer.
 - [mcp-gateway](https://github.com/darrshangovender/mcp-gateway): Hardened MCP server framework: API-key auth, tenant isolation, per-tool guardrails, rate limits and an audit log, serving the 2026-07-28 MCP revision and the 2025 revisions side by side.
 
+## Research harness (public GitHub repositories)
+- [closed-loop](https://github.com/darrshangovender/closed-loop): Research harness (v0.1): a maintenance stack run as one loop on a simulated plant, attacked on held-out seeds under a pre-registration, with losses published at the same size as wins. All data is synthetic.
+- [closed-loop-v2](https://github.com/darrshangovender/closed-loop-v2): Research harness (v0.2): a pre-registered test of whether conformal remaining-life coverage survives a replacement policy, on NASA C-MAPSS turbofan trajectories, which are simulated, not field data.
+
 ## Profiles
 - [GitHub](https://github.com/darrshangovender)
 - [LinkedIn](https://www.linkedin.com/in/darrshangovender/)

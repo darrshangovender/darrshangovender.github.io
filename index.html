@@ -419,6 +419,34 @@ noscript .nojs{margin:12px 0;padding:14px 16px;border:1px dashed var(--line-2);b
    "author": {
     "@id": "https://darrshangovender.github.io/#person"
    }
+  },
+  {
+   "@type": "SoftwareSourceCode",
+   "@id": "https://github.com/darrshangovender/closed-loop",
+   "name": "closed-loop",
+   "description": "Research harness (v0.1): a maintenance stack run as one loop on a simulated plant, attacked on held-out seeds under a pre-registration, with losses published at the same size as wins. All data is synthetic.",
+   "codeRepository": "https://github.com/darrshangovender/closed-loop",
+   "url": "https://github.com/darrshangovender/closed-loop",
+   "programmingLanguage": "Python",
+   "license": "https://spdx.org/licenses/MIT",
+   "isAccessibleForFree": true,
+   "author": {
+    "@id": "https://darrshangovender.github.io/#person"
+   }
+  },
+  {
+   "@type": "SoftwareSourceCode",
+   "@id": "https://github.com/darrshangovender/closed-loop-v2",
+   "name": "closed-loop-v2",
+   "description": "Research harness (v0.2): a pre-registered test of whether conformal remaining-life coverage survives a replacement policy, on NASA C-MAPSS turbofan trajectories, which are simulated, not field data.",
+   "codeRepository": "https://github.com/darrshangovender/closed-loop-v2",
+   "url": "https://github.com/darrshangovender/closed-loop-v2",
+   "programmingLanguage": "Python",
+   "license": "https://spdx.org/licenses/MIT",
+   "isAccessibleForFree": true,
+   "author": {
+    "@id": "https://darrshangovender.github.io/#person"
+   }
   }
  ]
 }
@@ -436,7 +464,7 @@ noscript .nojs{margin:12px 0;padding:14px 16px;border:1px dashed var(--line-2);b
       <a href="#systems">Systems</a>
       <a href="#replays">Replays</a>
       <a href="#infrastructure">Infrastructure</a>
-      <!--OFF-OPEN:closed-loop <a href="#research">Research</a> OFF-CLOSE:closed-loop-->
+      <a href="#research">Research</a>
       <a href="#method">How I work</a>
       <a href="about/">About</a>
     </nav>
@@ -678,9 +706,7 @@ noscript .nojs{margin:12px 0;padding:14px 16px;border:1px dashed var(--line-2);b
     <p class="more-row">More on <a href="https://github.com/darrshangovender">GitHub</a>: domain work such as South African lease abstraction and tenant affordability scoring, a WhatsApp agent kit with POPIA-aware redaction, and smaller RAG, routing and evaluation libraries.</p>
   </div>
 </section>
-<!-- CLOSED-LOOP BLOCK: switched off until github.com/darrshangovender/closed-loop and /closed-loop-v2 are public.
-     Switch on by running tools/build.py with its closed-loop flag: that also adds the nodes to the JSON-LD graph and the lines to llms.txt. -->
-<!--OFF-OPEN:closed-loop
+
 <section class="section" id="research" aria-labelledby="research-h">
   <div class="container">
     <header class="sec-head">
@@ -695,7 +721,7 @@ noscript .nojs{margin:12px 0;padding:14px 16px;border:1px dashed var(--line-2);b
         <ul>
           <li>The shield behaved as its proof predicts: 0 violations of P1 to P3 in 500 episodes for each of two hostile proposers, against 306 of 500 and 150 of 150 with it off.</li>
           <li>The thesis did not hold where it was registered: closing the loop did not move pooled coverage outside the band of 0.03 (C-PERC.pooled, a loss).</li>
-          <li>The run reproduced: 2,962 of 2,967 records identical in value, interval and sample size.</li>
+          <li>A second full run matched the first on 2,962 of the 2,967 records they share, in value, interval and sample size.</li>
         </ul>
         <p class="more-row"><a href="https://github.com/darrshangovender/closed-loop">Source, claims register and limits &rarr;</a></p>
       </article>
@@ -713,7 +739,6 @@ noscript .nojs{margin:12px 0;padding:14px 16px;border:1px dashed var(--line-2);b
     <p class="note">The limits are in the repositories' own READMEs: one author, simulated data, and a proof that covers a finite abstraction and safety, not progress.</p>
   </div>
 </section>
-OFF-CLOSE:closed-loop-->
 
 <section class="section" id="method" aria-labelledby="method-h">
   <div class="container">
